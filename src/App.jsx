@@ -1,14 +1,21 @@
 import { useState } from 'react'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Board from './Components/Board'
-
+import Board from './Components/Board';
+import Header from './Components/Header';
+import ScoreBorad from './Components/ScoreBoard';
 function App() {
   
 
   return (
     <div className="app">
-         <Board />
+      <Header />
+
+      <ScoreBorad />
+
+      <Board />
+      
+
     </div>
  
   )

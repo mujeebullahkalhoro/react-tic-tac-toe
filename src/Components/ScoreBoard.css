@@ -1,0 +1,14 @@
+.Score-Container{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    gap:0.5rem;
+}
+.Score-Container .box{
+       width: 5rem;
+       height: 5rem;
+       display: flex;
+       justify-content: center;
+       border: 2px solid black;
+       background-color: rgb(233, 235, 239);
+}
