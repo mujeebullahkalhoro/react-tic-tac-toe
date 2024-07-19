@@ -1,0 +1,15 @@
+.btn1{
+    width: 16rem;
+    height: 3rem;
+    margin-top:0.5rem ;
+   
+    background-color: #cab3f1;
+
+    color: white;
+    border-radius: 0.2rem;
+    border: none;
+    font-size: larger;
+}
+.btn1:hover{
+    background: linear-gradient(90deg,  #e6a4bc, #bca2e7);
+}

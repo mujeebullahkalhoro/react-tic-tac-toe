@@ -1,5 +1,12 @@
-.square{
-    width: 5rem;
-    height:5rem;
-    
+.square {
+  width: 5rem;
+  height: 5rem;
+
+  background-color:  #f5b7ce;
+  border-radius: 0.2rem;
+  border: none;
+  font-size: x-large;
+}
+.square:hover {
+  background-color:  #e195b1;
 }

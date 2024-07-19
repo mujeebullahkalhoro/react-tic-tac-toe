@@ -5,10 +5,33 @@
     gap:0.5rem;
 }
 .Score-Container .box{
-       width: 5rem;
+       width: 6rem;
        height: 5rem;
        display: flex;
+       padding-top:0.5rem ;
        justify-content: center;
-       border: 2px solid black;
-       background-color: rgb(233, 235, 239);
+       border-radius: 0.5rem;
+       font-size: large;
+       border: none;
+}
+.Score-Container .player-x{
+    background-color:#74BDCB;
+    
+
+}
+.Score-Container .draw{
+    background-color:#E7F2F8 ;
+   
+}
+.Score-Container .player-o{
+    background-color:#EFE7BC ;
+    
+
+}
+.score-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:0.5rem;
 }
