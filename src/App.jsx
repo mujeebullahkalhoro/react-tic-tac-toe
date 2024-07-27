@@ -23,7 +23,7 @@ function App() {
 
   const calculateScore = () => {
     const winner = calculateWinner(squares);
-    const isDraw = !winner && squares.every(square => square !== null);
+    const isDraw = !winner && squares.every((square) => square !== null);
 
     if (winner && winner === "X") {
       setScore((currScore) => {
@@ -45,11 +45,20 @@ function App() {
     setXIsNext(true);
   };
 
+  const resetScores = () => {
+    setScore({
+      playerX: 0,
+      draw: 0,
+      playerO: 0,
+    });
+    handleNewGame();
+  };
+
   return (
     <div className="app">
       <Header />
-     
-      <ScoreBoard score={score} />
+
+      <ScoreBoard score={score} resetScores={resetScores} />
       <Board
         xIsNext={xIsNext}
         squares={squares}
@@ -57,8 +66,11 @@ function App() {
         setXIsNext={setXIsNext}
       />
       <Status squares={squares} next={xIsNext} />
-      <Buttons name="New Game" className="btn1" handleClick={handleNewGame} />
-     
+
+      <div className="ButtonsBox">
+      <Buttons name="Continue" className="btn1" handleClick={handleNewGame} />
+      <Buttons name="Reset" className="btn1" handleClick={resetScores}></Buttons>
+      </div>
       
     </div>
   );
