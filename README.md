@@ -25,13 +25,13 @@ A classic Tic-Tac-Toe game built with React.js, featuring a scoring system to tr
 1. **Clone the Repository**:
 
     ```bash
-    git clone https://github.com/your-username/vite-project.git
+    git clone https://github.com/mujeebullahkalhoro/react-tic-tac-toe.git
     ```
 
 2. **Navigate to the Project Directory**:
 
     ```bash
-    cd vite-project
+    cd react-tic-tac-toe
     ```
 
 3. **Install Dependencies**:
