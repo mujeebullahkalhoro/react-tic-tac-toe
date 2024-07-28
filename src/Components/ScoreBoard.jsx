@@ -1,10 +1,5 @@
-import { useState } from 'react';
 import './ScoreBoard.css';
 export default function ScoreBorad({score,resetScores}){
-
- 
-     
-    
 
     return(
         <div className="Score-Container">
